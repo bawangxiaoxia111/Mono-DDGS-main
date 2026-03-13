@@ -19,7 +19,9 @@ pip install -e submodules/simple-knn
 
 The [CholecSeg8k](https://arxiv.org/pdf/2012.12453) dataset can be downloaded from the publicly available repository on [Kaggle](https://www.kaggle.com/datasets/newslab/cholecseg8k).
 
-We also provide the preprocessed dataset: [Google Drive](https://drive.google.com/file/d/1_hPQLEmtZ6AS2jnOIAFC8iPZ4Nqc8JKu/view?usp=sharing).
+The preprocessed dataset is available upon request. Please complete the [dataset request form](https://docs.google.com/forms/d/e/1FAIpQLSeuX2rgUSC0-g4EyS6pBaYeNTQiVIjrUhmLz26xifP_KlyLWA/viewform), and approved users will receive the Google Drive download link.
+
+<!--We also provide the preprocessed dataset: [Google Drive](https://drive.google.com/file/d/1_hPQLEmtZ6AS2jnOIAFC8iPZ4Nqc8JKu/view?usp=sharing).-->
 
 **For stereo scenes**: We used [EndoNeRF](https://github.com/med-air/EndoNeRF) dataset provided by [Yuehao Wang](https://docs.google.com/forms/d/e/1FAIpQLSfM0ukpixJkZzlK1G3QSA7CMCoOJMFFdHm5ltCV1K6GNVb3nQ/viewform). 
 ```text 
