@@ -15,13 +15,13 @@ pip install -e submodules/simple-knn
 ```
 
 ## Datasets
-**For monocular scenes**: Gastrolab Dataset could be downloaded from their [official websites](https://www.gastrolab.net/video.htm). For our experiments, we selected 47 consecutive frames (frame_304_endo–frame_319_endo) from the [video156](https://www.gastrolab.net/video156.htm) video sequences.
+**For monocular scenes**: Gastrolab Dataset could be downloaded from their [official websites](https://www.gastrolab.net/video.htm). For our experiments, we selected 47 consecutive frames (00102–00148) from the [video156](https://www.gastrolab.net/video156.htm) video sequences.
 
-The [CholecSeg8k](https://arxiv.org/pdf/2012.12453) dataset can be downloaded from the publicly available repository on [Kaggle](https://www.kaggle.com/datasets/newslab/cholecseg8k). We selected 15 consecutive frames (01–20) from the original video sequences for experiments.
+The [CholecSeg8k](https://arxiv.org/pdf/2012.12453) dataset can be downloaded from the publicly available repository on [Kaggle](https://www.kaggle.com/datasets/newslab/cholecseg8k). We selected 15 consecutive frames (frame_304_endo–frame_319_endo) from the *video 24* sequence for experiments.
 
 **For stereo scenes**: We used the original [EndoNeRF](https://github.com/med-air/EndoNeRF) image sequences provided by [Yuehao Wang](https://docs.google.com/forms/d/e/1FAIpQLSfM0ukpixJkZzlK1G3QSA7CMCoOJMFFdHm5ltCV1K6GNVb3nQ/viewform). 
 
-Camera poses for all datasets were obtained using COLMAP. The generated sparse reconstruction files are included in the corresponding dataset folders. The preprocessed datasets are available upon request. The preprocessed dataset is available upon request. Please complete the [dataset request form](https://docs.google.com/forms/d/e/1FAIpQLSeuX2rgUSC0-g4EyS6pBaYeNTQiVIjrUhmLz26xifP_KlyLWA/viewform), and approved users will receive the Google Drive download link.
+Camera poses for all datasets were obtained using COLMAP. The preprocessed dataset is available upon request. Please complete the [dataset request form](https://docs.google.com/forms/d/e/1FAIpQLSeuX2rgUSC0-g4EyS6pBaYeNTQiVIjrUhmLz26xifP_KlyLWA/viewform), and approved users will receive the Google Drive download link.
 
 <!--We also provide the preprocessed dataset: [Google Drive](https://drive.google.com/file/d/1_hPQLEmtZ6AS2jnOIAFC8iPZ4Nqc8JKu/view?usp=sharing).-->
 ```text 
