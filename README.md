@@ -47,6 +47,15 @@ Run the following script to render the images.
 python render.py --model_path "output/dnerf/cutting/" --skip_train --configs arguments/dnerf/cutting.py
 ```
 
+## Specular Reflection Removal
+Download our pretrained En-EndoSRR weights from the following link:  
+[Google Drive / Baidu Netdisk Link]
+
+Run the following command to perform specular reflection removal on rendered images:
+
+```bash
+python inference.py --input_dir ./rendered_images --output_dir ./results --weights ./checkpoints/En-EndoSRR.pth
+
 ## Acknowledgements
 We would like to acknowledge the following inspiring work:
 
