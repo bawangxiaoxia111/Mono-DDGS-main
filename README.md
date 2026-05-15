@@ -49,18 +49,21 @@ python render.py --model_path "output/dnerf/cutting/" --skip_train --configs arg
 
 ## Specular Reflection Removal
 cd ./En_EndoSRR
-Download  our pretrained En-EndoSRR weights and place it in the pretrained folder.
+Download  our pretrained [En-EndoSRR weights](https://drive.google.com/drive/folders/0AIsRehdRQ9F9Uk9PVA) and place it in the pretrained folder.
+
 Download the [Big-LaMa](https://github.com/advimman/lama) pretrained model of LaMa and place it in the pretrained folder.
 
 Run the following command to perform specular reflection removal on rendered images:
 
 ```bash
-python En_EndoSRR.py --input_dir ./rendered_images --output_dir ./results --weights ./checkpoints/En-EndoSRR.pth
+python En_EndoSRR.py 
 ```
 
 ## Acknowledgements
 We would like to acknowledge the following inspiring work:
 
 [3DGS](https://github.com/graphdeco-inria/gaussian-splatting) (Bernhard Kerbl et al.)
+
+
 
 
