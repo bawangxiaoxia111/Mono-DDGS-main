@@ -64,6 +64,8 @@ We would like to acknowledge the following inspiring work:
 
 [3DGS](https://github.com/graphdeco-inria/gaussian-splatting) (Bernhard Kerbl et al.)
 
+[EndoSRR](](https://github.com/Tobyzai/EndoSRR?tab=readme-ov-file))(Wei Li et al.)
+
 
 
 
