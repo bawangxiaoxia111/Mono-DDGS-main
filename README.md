@@ -48,7 +48,9 @@ python render.py --model_path "output/dnerf/cutting/" --skip_train --configs arg
 ```
 
 ## Specular Reflection Removal
+```bash
 cd ./En_EndoSRR
+```
 Download  our pretrained [En-EndoSRR weights](https://drive.google.com/drive/folders/0AIsRehdRQ9F9Uk9PVA) and place it in the pretrained folder.
 
 Download the [Big-LaMa](https://github.com/advimman/lama) pretrained model of LaMa and place it in the pretrained folder.
